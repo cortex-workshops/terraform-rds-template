@@ -1,0 +1,8 @@
+{
+  "repo_name": "rds-terraform-config",
+  "db_identifier": "dev-db-instance",
+  "db_engine": "postgres",
+  "db_username": "admin",
+  "db_password": "password123",
+  "db_name": "devdb"
+}
