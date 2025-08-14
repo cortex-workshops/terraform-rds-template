@@ -1,8 +1,19 @@
 {
   "repo_name": "rds-terraform-config",
+  "aws_region": "us-east-1",
+
   "db_identifier": "dev-db-instance",
   "db_engine": "postgres",
-  "db_username": "admin",
-  "db_password": "password123",
-  "db_name": "devdb"
+  "engine_version": "15.6",
+  "instance_class": "db.t4g.small",
+
+  "db_name": "devdb",
+  "db_username": "appuser",
+
+  "backup_retention_period": "7",
+  "deletion_protection": "true",
+
+  "db_subnet_group_name": "",
+  "db_security_group_id": "",
+  "kms_key_id": "alias/aws/rds"
 }
