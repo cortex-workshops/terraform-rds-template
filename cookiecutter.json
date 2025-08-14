@@ -1,5 +1,6 @@
 {
   "repo_name": "rds-terraform-config",
+  "version": "1.1"
   "aws_region": "us-east-1",
 
   "db_identifier": "dev-db-instance",
